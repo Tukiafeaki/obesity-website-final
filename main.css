@@ -1,3 +1,4 @@
+
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -14,36 +15,53 @@
 
 .navbar {
     grid-area: navbar;
+    background-color: chartreuse;
 }
 
 .heading_1 {
     grid-area: heading_1;
+    background-color: blanchedalmond;
+    text-align: center;
 }
 
 .image_1 {
     grid-area: image_1;
+    background-color: chartreuse;
 }
 
 .text_1 {
     grid-area: text_1;
+    background-color: antiquewhite;
 }
 
 .image_2 {
     grid-area: image_2;
+    background-color: blanchedalmond;
 }
 
 .text_2 {
     grid-area: text_2;
+    background-color: chartreuse;
 }
 
 .image_3 {
     grid-area: image_3;
+    background-color: chartreuse;
 }
 
 .text_3 {
     grid-area: text_3;
+    background-color: blanchedalmond;
 }
 
 .footer {
     grid-area: footer;
+    background-color: blanchedalmond;
+
+
 }
+
+img {
+    width:400px ;
+    height: 250px;
+}px
