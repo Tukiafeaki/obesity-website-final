@@ -15,48 +15,48 @@
 
 .navbar {
     grid-area: navbar;
-    background-color: chartreuse;
+    background-color: rgb(0, 195, 255);
 }
 
 .heading_1 {
     grid-area: heading_1;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 9, 255);
     text-align: center;
 }
 
 .image_1 {
     grid-area: image_1;
-    background-color: chartreuse;
+    background-color: rgb(255, 174, 0);
 }
 
 .text_1 {
     grid-area: text_1;
-    background-color: antiquewhite;
+    background-color: rgba(255, 251, 0, 0.932);
 }
 
 .image_2 {
     grid-area: image_2;
-    background-color: blanchedalmond;
+    background-color: rgb(0, 195, 255);
 }
 
 .text_2 {
     grid-area: text_2;
-    background-color: chartreuse;
+    background-color: rgb(247, 0, 255);
 }
 
 .image_3 {
     grid-area: image_3;
-    background-color: chartreuse;
+    background-color: rgb(255, 153, 0);
 }
 
 .text_3 {
     grid-area: text_3;
-    background-color: blanchedalmond;
+    background-color: rgb(251, 255, 0);
 }
 
 .footer {
     grid-area: footer;
-    background-color: blanchedalmond;
+    background-color: rgb(0, 47, 255);
 
 
 }
