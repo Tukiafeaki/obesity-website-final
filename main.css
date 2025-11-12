@@ -1,4 +1,4 @@
-
+ 
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -10,87 +10,123 @@
     "image_2 text_2"
     "image_3 text_3"
     "footer footer"
-
+ 
 }
-
+ 
 .navbar {
     grid-area: navbar;
-    background-color: #C2F7FF;
+    background-color: #e4c1f9;
 }
-
+ 
 .navbar ul {
   list-style-type: none;  
 }
-
+ 
 .navbar li {
     display: inline;
     padding: 20px;
 }
-
+ 
 .navbar a {
     padding: 20px;
 }
-
-
+ 
+ 
 .heading_1 {
     grid-area: heading_1;
-    background-color: #C2F7FF;
+    background-color: #F694C1;
     text-align: center;
 }
-
+ 
 .image_1 {
     grid-area: image_1;
-     background-color:  #FFF5D6;
-     padding: 10%;
-  
+    background-color:  #ede7b1;
+    padding: 10%;
+ 
+ 
+ 
 }
-
+ 
 .text_1 {
     grid-area: text_1;
-    background-color:  #FFF5D6;
+    background-color:  #ede7b1;
     padding-left: 10%;
      padding-right: 10%;
     line-height: 2;
 }
-
+ 
 .image_2 {
     grid-area: image_2;
-     background-color:  #FFF5D6;
-     padding: 10%;
-  
+    background-color:  #A9DEF9;
+    padding: 10%;
+ 
+ 
 }
-
+ 
 .text_2 {
     grid-area: text_2;
-    background-color:  #FFF5D6;
+    background-color:  #A9DEF9;
     padding-left: 10%;
      padding-right: 10%;
     line-height: 2;
 }
-
+ 
 .image_3 {
     grid-area: image_3;
-    background-color:  #FFF5D6;
+    background-color:  #d3f8e2;
     padding: 10%;
-
+ 
+ 
 }
-
+ 
 .text_3 {
     grid-area: text_3;
-    background-color:  #FFF5D6;
+    background-color:  #d3f8e2;
     padding-left: 10%;
     padding-right: 10%;
     line-height: 2;
 }
-
+ 
 .footer {
     grid-area: footer;
-    background-color: #C2F7FF;
-
-
+    background-color: #F694C1; /* deep green-blue, calming and health-related */
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
 }
-
+ 
+footer h3 {
+  font-family: 'Baloo 2', cursive; /* fun, kid-friendly font */
+  font-size: 1.8em;
+  margin-bottom: 8px;
+}
+ 
+footer p {
+  margin: 5px 0;
+  
+  font-size: 0.95em;
+}
+ 
+footer a {
+  text-decoration: none;
+}
+ 
+footer a:hover {
+  text-decoration: underline;
+}
+ 
+.school-info {
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 0.9em;
+}
+ 
+.disclaimer {
+  margin-top: 5px;
+  font-size: 0.85em;
+}
+ 
 img {
     width:100% ;
    height: auto;
 }
+ 
